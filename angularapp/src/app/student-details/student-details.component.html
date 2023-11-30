@@ -1,0 +1,15 @@
+<!-- angularapp/src/app/student-details/student-details.component.html -->
+
+<div class="container">
+    <h2>Student Details</h2>
+    <div *ngIf="student">
+      <p><strong>ID:</strong> {{ student.id }}</p>
+      <p><strong>Name:</strong> {{ student.name }}</p>
+      <p><strong>Department:</strong> {{ student.department }}</p>
+      <p><strong>Phone Number:</strong> {{ student.phonenumber }}</p>
+    </div>
+    <div *ngIf="!student">
+      <p>Student not found.</p>
+    </div>
+  </div>
+  

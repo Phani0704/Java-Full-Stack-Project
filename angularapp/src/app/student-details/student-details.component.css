@@ -1,0 +1,32 @@
+/* Student Details component styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+  }
+  
+  h2 {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+  
+  .detail-box {
+    width: 90%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+  }
+  
+  .detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .detail strong {
+    margin-right: 5px;
+  }
+  

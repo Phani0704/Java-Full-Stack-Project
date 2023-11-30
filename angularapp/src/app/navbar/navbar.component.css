@@ -1,0 +1,25 @@
+/* Navbar component styles */
+.navbar {
+  background-color: #007BFF;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.navbar p {
+  font-size: 24px;
+  margin: 0 50px 0 0;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.nav-title {
+  font-size: 24px;
+  font-weight: bold;
+}

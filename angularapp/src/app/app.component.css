@@ -1,0 +1,16 @@
+/* Global styles for the entire application */
+.app-container {
+    text-align: center;
+  }
+  
+  .router-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .router-link:hover {
+    text-decoration: underline;
+  }
+  
+ 
