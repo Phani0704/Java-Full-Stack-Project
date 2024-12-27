@@ -9,7 +9,7 @@ import { Student } from '../models/student.model';
   providedIn: 'root',
 })
 export class StudentService {
-  private baseUrl = 'http://localhost:8080'; // Replace with the correct base URL of your backend server
+  private baseUrl = 'http://localhost:8081'; // Replace with the correct base URL of your backend server
 
   constructor(private http: HttpClient) {}
 
